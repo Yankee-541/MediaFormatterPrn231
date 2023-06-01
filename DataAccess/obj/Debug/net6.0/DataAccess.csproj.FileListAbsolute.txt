@@ -1,0 +1,12 @@
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\bin\Debug\net6.0\DataAccess.dll
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.dll
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll

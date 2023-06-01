@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "DataAccess >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\admin\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\DataAccess\\DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

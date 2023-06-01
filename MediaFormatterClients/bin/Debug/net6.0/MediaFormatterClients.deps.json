@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MediaFormatterClients/1.0.0": {
+        "dependencies": {
+          "DataAccess": "1.0.0"
+        },
         "runtime": {
           "MediaFormatterClients.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "runtime": {
+          "DataAccess.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MediaFormatterClients/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

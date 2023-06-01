@@ -29,3 +29,6 @@ F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatter
 F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\obj\Debug\net6.0\MediaFormatterClients.pdb
 F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\obj\Debug\net6.0\MediaFormatterClients.genruntimeconfig.cache
 F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\obj\Debug\net6.0\ref\MediaFormatterClients.dll
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\bin\Debug\net6.0\DataAccess.dll
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\bin\Debug\net6.0\DataAccess.pdb
+F:\Documents\FPT_University\Semester_9\PRN231\code\MediaFormatter\MediaFormatterClients\obj\Debug\net6.0\MediaFormatterClients.csproj.CopyComplete

@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\MediaFormatterClients.bundle.scp.css"
     },
     {
+      "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\Download\\2.jpg",
+      "PackagePath": "staticwebassets\\Download\\2.jpg"
+    },
+    {
+      "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\Download\\ConnectionString.txt",
+      "PackagePath": "staticwebassets\\Download\\ConnectionString.txt"
+    },
+    {
       "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\Download\\Program.cs",
       "PackagePath": "staticwebassets\\Download\\Program.cs"
+    },
+    {
+      "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\Download\\acaaaa.jpg",
+      "PackagePath": "staticwebassets\\Download\\acaaaa.jpg"
     },
     {
       "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\css\\site.css",

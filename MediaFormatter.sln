@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaFormatterClients", "MediaFormatterClients\MediaFormatterClients.csproj", "{6F621762-D163-4043-B9E6-248D54EAA2FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaFormatterApi", "MediaFormatterApi\MediaFormatterApi.csproj", "{BBAF3CF8-914D-4436-B7A5-536E09AE92AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6CC5E6F1-5941-4996-8347-35470FF88B34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAF3CF8-914D-4436-B7A5-536E09AE92AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAF3CF8-914D-4436-B7A5-536E09AE92AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAF3CF8-914D-4436-B7A5-536E09AE92AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAF3CF8-914D-4436-B7A5-536E09AE92AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC5E6F1-5941-4996-8347-35470FF88B34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC5E6F1-5941-4996-8347-35470FF88B34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC5E6F1-5941-4996-8347-35470FF88B34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC5E6F1-5941-4996-8347-35470FF88B34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
