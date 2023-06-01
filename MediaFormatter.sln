@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaFormatter", "MediaFormatter\MediaFormatter.csproj", "{46C64594-13E6-4182-A676-EB5C06B44046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaFormatterClients", "MediaFormatterClients\MediaFormatterClients.csproj", "{6F621762-D163-4043-B9E6-248D54EAA2FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46C64594-13E6-4182-A676-EB5C06B44046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46C64594-13E6-4182-A676-EB5C06B44046}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46C64594-13E6-4182-A676-EB5C06B44046}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46C64594-13E6-4182-A676-EB5C06B44046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F621762-D163-4043-B9E6-248D54EAA2FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
