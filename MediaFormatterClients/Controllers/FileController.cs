@@ -20,27 +20,50 @@ namespace MediaFormatterClients.Controllers
 		[HttpGet]
 		public async Task<IActionResult> Upload()
 		{
-			ViewBag.LeftMenu = true;
 			return View();
 		}
 
 		[HttpPost]
-		public async Task<IActionResult> Upload(IFormFile formFile)
+		public async Task<IActionResult> Upload(IFormFile? formFile)
 		{
 			string downloadFolder = Path.Combine(_environment.WebRootPath, FOLDER_NAME);
 			if (!Directory.Exists(downloadFolder))
 			{
 				Directory.CreateDirectory(downloadFolder);
 			}
-			var fileName = formFile.FileName;
-			var pathFile = Path.Combine(_environment.WebRootPath, FOLDER_NAME, fileName);
+			string fileType = formFile.ContentType;
+
+			if (fileType.StartsWith("image/"))
+			{
+				ViewData["Message"] = "This is a picture.";
+
+
+			} else if (fileType.StartsWith("text/"))
+			{
+				ViewData["Message"] = "It's a text file.";
+
+
+			} else if (fileType.StartsWith("application/csv"))
+			{
+				ViewData["Message"] = "It's a word or pdf file.";
+
+
+			}
+			else
+			{
+				ViewData["Message"] = "Save failed";
+				ViewData["Message1"] = "File unknown type";
+				return View();
+			}
+
+			var pathFile = Path.Combine(_environment.WebRootPath, FOLDER_NAME, formFile.FileName);
 
 			using (var uploading = new FileStream(pathFile, FileMode.Create))
 			{
 				await formFile.CopyToAsync(uploading);
 				uploading.Close();
-				ViewData["Message"] = "The Selected File " + formFile.FileName + " Is Saved success...";
-				ViewBag.LeftMenu = true;
+				ViewData["Message1"] = "The Selected File " + formFile.FileName + " Is Saved success...";
+
 				return View();
 			}
 		}

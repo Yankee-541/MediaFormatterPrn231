@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MediaFormatterClients.bundle.scp.css"
     },
     {
+      "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\Download\\Program.cs",
+      "PackagePath": "staticwebassets\\Download\\Program.cs"
+    },
+    {
       "Id": "F:\\Documents\\FPT_University\\Semester_9\\PRN231\\code\\MediaFormatter\\MediaFormatterClients\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
